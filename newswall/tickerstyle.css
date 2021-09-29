@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(31, 31, 31);
+    height: auto;
+    width: auto;
+    color: aliceblue;
+}
+.top-margin {
+    margin-top: 22px;
+}
+.top-padding {
+    padding-top: 22px;
+}
+.weather-pane {
+    width: 20%;
+    margin-left: 15px;
+    float: left;
+    height: 345px;
+}
+.left-rss {
+    width: 100%;
+    margin-top: 10px;
+    height: 210px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgb(31, 31, 31);
+    font-size: 10px;
+}
+.overflow {
+    /* overflow-y: scroll; */
+    overflow: hidden;
+}
+.overflow iframe {
+    width: 100%;
+}
+.twitter-pane {
+    width: 75%;
+    float: none;
+}
+.stock-pane {
+    width: 26%;
+    margin-right: 15px;
+    float: right;
+    /* height: 468px; */
+    overflow: hidden;
+}
+.twitter-terminal {
+    margin-top: 20px;
+}
+.twitter-feed {
+    background-color: rgb(31, 31, 31);
+    height: 190px;
+    overflow-y: hidden;
+}
+.news-feed {
+    background-color: rgb(31, 31, 31);
+    height: 165px;
+    margin-top: 5px;
+}
+.weather-feed {
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+}
+.sat-img {
+    width: 49%;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.sat-img-crop {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    transform: translate(0px, -12px);
+}
+.wide-image-bin {
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.alignleft {
+    float: left;
+    margin-right: 2px;
+}
+.alignright {
+    float: right;
+    margin-left: 2px;
+}
+.det-container {
+    height: 355px;
+}
+.clock {
+    text-align:center;
+    height: auto;
+    background-color: rgb(31, 31, 31);
+    line-height: 20px;
+}
+.clock-panel {
+    /* margin-top: 10px; */
+    background-color: rgb(31, 31, 31);
+}
+.clock-top {
+    margin-top: 10px;
+}
+.clock div {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}

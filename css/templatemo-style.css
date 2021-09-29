@@ -82,7 +82,7 @@ p {
 	padding-bottom: 175px;
 	padding-left: 120px;
 	text-align: left;
-	background-image: url(../img/banner-bg.png);
+	background-image: url(../img/Maa.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -93,13 +93,13 @@ p {
 .left-banner-content h6 {
 	font-size: 14px;
 	font-weight: 700;
-	color: #fff;
+	color: rgb(0, 92, 167);
 }
 
 .left-banner-content h1 {
 	font-size: 64px;
-	font-weight: 300;
-	color: #fff;
+	font-weight: 620;
+	color: rgb(255, 255, 255);
 	line-height: 70px;
 }
 
@@ -874,7 +874,7 @@ footer p em {
 
 	.left-banner-content h1 {
 		font-size: 64px;
-		font-weight: 300;
+		font-weight: 620;
 		color: #fff;
 		line-height: 80px!important;
 	}

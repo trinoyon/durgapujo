@@ -272,19 +272,11 @@ p {
 	background-color: #eee;
 }
 
-.event-list ul .second-child{
+.event-list ul .even-child{
 	background-color: #ddd;
 }
 
-.event-list ul .third-child{
-	background-color: #eee;
-}
-
-.event-list ul .fourth-child{
-	background-color: #ddd;
-}
-
-.event-list ul .fivth-child{
+.event-list ul .odd-child{
 	background-color: #eee;
 }
 

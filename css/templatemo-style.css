@@ -288,8 +288,8 @@ p {
 
 .event-list ul li .date span {
 	background-color: #f4bc51;
-	width: 80px;
-	height: 60px;
+	width: 110px;
+	height: auto;
 	text-align: center;
 	line-height: 25px;
 	margin-right: 0px;
@@ -323,6 +323,7 @@ p {
 
 .event-list ul li .date span {
 	padding-top: 15px;
+	padding-bottom: 15px;
 	margin-top: 0px;
 	font-size: 18px;
 	display: block;
@@ -667,7 +668,7 @@ footer p {
 	.event-list ul li .date span {
 		background-color: #f4bc51;
 		width: 100%;
-		height: 60px;
+		height: auto;
 		text-align: center;
 		line-height: 25px;
 		margin-right: 0px;

@@ -28,6 +28,12 @@ p {
 	color: #4a4a4a;
 }
 
+.white-border-button {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 .white-border-button a {
 	padding: 14px 20px;
 	background-color: transparent;
@@ -75,7 +81,7 @@ p {
 	background-size: cover;
 	background-position: center center;
 	min-height: 680px;
-	height: 680px;
+	height: auto;
 }
 
 .left-banner-content h1 {
@@ -94,7 +100,7 @@ p {
 	background-color: #f4bc51;
 	text-align: center;		
 	min-height: 680px;
-	height: 680px;
+	height: auto;
 }
 
 .right-banner-content h2 {
@@ -382,17 +388,6 @@ p {
 .flip-container {
   perspective: 1000;
 }
-/* turning on hover */
-
-.flip-container:hover .flipper {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -ms-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s;
-}
 
 .flip-container,
 .front,
@@ -414,8 +409,8 @@ p {
 	line-height: 140px;
 	text-align: center;
 	background-color: transparent;
-	border: 1px solid #fff;
-	border-radius: 50%;
+	/* border: 1px solid #fff; */
+	/* border-radius: 50%; */
 	margin: 30px auto;
 }
 
@@ -532,6 +527,10 @@ footer p {
 	.banner .left-banner-content {
 		padding-left: 0px;
 		text-align: center;
+	}
+
+	.white-border-button {
+		float: none;
 	}
 
 	.left-banner-content h1 {
